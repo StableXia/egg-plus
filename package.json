@@ -1,0 +1,27 @@
+{
+  "name": "egg-plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaotangdou/egg-plus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaotangdou/egg-plus/issues"
+  },
+  "homepage": "https://github.com/xiaotangdou/egg-plus#readme",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-router": "^10.0.0"
+  }
+}
