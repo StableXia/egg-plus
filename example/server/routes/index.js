@@ -1,9 +1,4 @@
 module.exports = (app) => ({
-  "get /": () => {
-    console.log(app);
-    app.ctx.body = "index";
-  },
-  "get /detail": () => {
-    app.ctx.body = "detail";
-  },
+  "get /": app.$ctrl.home.index,
+  "get /detail": app.$ctrl.home.detail,
 });
