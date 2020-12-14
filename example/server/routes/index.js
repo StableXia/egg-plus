@@ -1,6 +1,9 @@
 module.exports = (app) => ({
-  "get /": app.$ctrl.home.index,
+  "get /": () => {
+    console.log(app);
+    app.ctx.body = "index";
+  },
   "get /detail": () => {
-    return app.$ctrl.home.detail;
+    app.ctx.body = "detail";
   },
 });
